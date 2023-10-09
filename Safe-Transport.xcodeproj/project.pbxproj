@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB2213C2AD3B5720043CD6E /* Safe-Transport Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1DB2213B2AD3B5720043CD6E /* Safe-Transport Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DB221412AD3B5720043CD6E /* Safe_TransportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB221402AD3B5720043CD6E /* Safe_TransportApp.swift */; };
+		1DB221432AD3B5720043CD6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB221422AD3B5720043CD6E /* ContentView.swift */; };
+		1DB221452AD3B5730043CD6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB221442AD3B5730043CD6E /* Assets.xcassets */; };
+		1DB221482AD3B5730043CD6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB221472AD3B5730043CD6E /* Preview Assets.xcassets */; };
+		1DB221522AD3B5730043CD6E /* Safe_Transport_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB221512AD3B5730043CD6E /* Safe_Transport_Watch_AppTests.swift */; };
+		1DB2215C2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2215B2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITests.swift */; };
+		1DB2215E2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2215D2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB2213D2AD3B5720043CD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB2212F2AD3B5720043CD6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB2213A2AD3B5720043CD6E;
+			remoteInfo = "Safe-Transport Watch App";
+		};
+		1DB2214E2AD3B5730043CD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB2212F2AD3B5720043CD6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB2213A2AD3B5720043CD6E;
+			remoteInfo = "Safe-Transport Watch App";
+		};
+		1DB221582AD3B5730043CD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB2212F2AD3B5720043CD6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB2213A2AD3B5720043CD6E;
+			remoteInfo = "Safe-Transport Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DB221642AD3B5730043CD6E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1DB2213C2AD3B5720043CD6E /* Safe-Transport Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DB221352AD3B5720043CD6E /* Safe-Transport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe-Transport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB2213B2AD3B5720043CD6E /* Safe-Transport Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe-Transport Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB221402AD3B5720043CD6E /* Safe_TransportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_TransportApp.swift; sourceTree = "<group>"; };
+		1DB221422AD3B5720043CD6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DB221442AD3B5730043CD6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DB221472AD3B5730043CD6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DB2214D2AD3B5730043CD6E /* Safe-Transport Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe-Transport Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB221512AD3B5730043CD6E /* Safe_Transport_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_Transport_Watch_AppTests.swift; sourceTree = "<group>"; };
+		1DB221572AD3B5730043CD6E /* Safe-Transport Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe-Transport Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB2215B2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_Transport_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		1DB2215D2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_Transport_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB221382AD3B5720043CD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB2214A2AD3B5730043CD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB221542AD3B5730043CD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB2212E2AD3B5720043CD6E = {
+			isa = PBXGroup;
+			children = (
+				1DB2213F2AD3B5720043CD6E /* Safe-Transport Watch App */,
+				1DB221502AD3B5730043CD6E /* Safe-Transport Watch AppTests */,
+				1DB2215A2AD3B5730043CD6E /* Safe-Transport Watch AppUITests */,
+				1DB221362AD3B5720043CD6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB221362AD3B5720043CD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB221352AD3B5720043CD6E /* Safe-Transport.app */,
+				1DB2213B2AD3B5720043CD6E /* Safe-Transport Watch App.app */,
+				1DB2214D2AD3B5730043CD6E /* Safe-Transport Watch AppTests.xctest */,
+				1DB221572AD3B5730043CD6E /* Safe-Transport Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB2213F2AD3B5720043CD6E /* Safe-Transport Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				1DB221402AD3B5720043CD6E /* Safe_TransportApp.swift */,
+				1DB221422AD3B5720043CD6E /* ContentView.swift */,
+				1DB221442AD3B5730043CD6E /* Assets.xcassets */,
+				1DB221462AD3B5730043CD6E /* Preview Content */,
+			);
+			path = "Safe-Transport Watch App";
+			sourceTree = "<group>";
+		};
+		1DB221462AD3B5730043CD6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DB221472AD3B5730043CD6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DB221502AD3B5730043CD6E /* Safe-Transport Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DB221512AD3B5730043CD6E /* Safe_Transport_Watch_AppTests.swift */,
+			);
+			path = "Safe-Transport Watch AppTests";
+			sourceTree = "<group>";
+		};
+		1DB2215A2AD3B5730043CD6E /* Safe-Transport Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2215B2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITests.swift */,
+				1DB2215D2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Safe-Transport Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB221342AD3B5720043CD6E /* Safe-Transport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB221652AD3B5730043CD6E /* Build configuration list for PBXNativeTarget "Safe-Transport" */;
+			buildPhases = (
+				1DB221332AD3B5720043CD6E /* Resources */,
+				1DB221642AD3B5730043CD6E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB2213E2AD3B5720043CD6E /* PBXTargetDependency */,
+			);
+			name = "Safe-Transport";
+			productName = "Safe-Transport";
+			productReference = 1DB221352AD3B5720043CD6E /* Safe-Transport.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1DB2213A2AD3B5720043CD6E /* Safe-Transport Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB221612AD3B5730043CD6E /* Build configuration list for PBXNativeTarget "Safe-Transport Watch App" */;
+			buildPhases = (
+				1DB221372AD3B5720043CD6E /* Sources */,
+				1DB221382AD3B5720043CD6E /* Frameworks */,
+				1DB221392AD3B5720043CD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safe-Transport Watch App";
+			productName = "Safe-Transport Watch App";
+			productReference = 1DB2213B2AD3B5720043CD6E /* Safe-Transport Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DB2214C2AD3B5730043CD6E /* Safe-Transport Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB221682AD3B5730043CD6E /* Build configuration list for PBXNativeTarget "Safe-Transport Watch AppTests" */;
+			buildPhases = (
+				1DB221492AD3B5730043CD6E /* Sources */,
+				1DB2214A2AD3B5730043CD6E /* Frameworks */,
+				1DB2214B2AD3B5730043CD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB2214F2AD3B5730043CD6E /* PBXTargetDependency */,
+			);
+			name = "Safe-Transport Watch AppTests";
+			productName = "Safe-Transport Watch AppTests";
+			productReference = 1DB2214D2AD3B5730043CD6E /* Safe-Transport Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DB221562AD3B5730043CD6E /* Safe-Transport Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB2216B2AD3B5730043CD6E /* Build configuration list for PBXNativeTarget "Safe-Transport Watch AppUITests" */;
+			buildPhases = (
+				1DB221532AD3B5730043CD6E /* Sources */,
+				1DB221542AD3B5730043CD6E /* Frameworks */,
+				1DB221552AD3B5730043CD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB221592AD3B5730043CD6E /* PBXTargetDependency */,
+			);
+			name = "Safe-Transport Watch AppUITests";
+			productName = "Safe-Transport Watch AppUITests";
+			productReference = 1DB221572AD3B5730043CD6E /* Safe-Transport Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB2212F2AD3B5720043CD6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1DB221342AD3B5720043CD6E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1DB2213A2AD3B5720043CD6E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1DB2214C2AD3B5730043CD6E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1DB2213A2AD3B5720043CD6E;
+					};
+					1DB221562AD3B5730043CD6E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1DB2213A2AD3B5720043CD6E;
+					};
+				};
+			};
+			buildConfigurationList = 1DB221322AD3B5720043CD6E /* Build configuration list for PBXProject "Safe-Transport" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DB2212E2AD3B5720043CD6E;
+			productRefGroup = 1DB221362AD3B5720043CD6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB221342AD3B5720043CD6E /* Safe-Transport */,
+				1DB2213A2AD3B5720043CD6E /* Safe-Transport Watch App */,
+				1DB2214C2AD3B5730043CD6E /* Safe-Transport Watch AppTests */,
+				1DB221562AD3B5730043CD6E /* Safe-Transport Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB221332AD3B5720043CD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB221392AD3B5720043CD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB221482AD3B5730043CD6E /* Preview Assets.xcassets in Resources */,
+				1DB221452AD3B5730043CD6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB2214B2AD3B5730043CD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB221552AD3B5730043CD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB221372AD3B5720043CD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB221432AD3B5720043CD6E /* ContentView.swift in Sources */,
+				1DB221412AD3B5720043CD6E /* Safe_TransportApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB221492AD3B5730043CD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB221522AD3B5730043CD6E /* Safe_Transport_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB221532AD3B5730043CD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB2215C2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITests.swift in Sources */,
+				1DB2215E2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DB2213E2AD3B5720043CD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB2213A2AD3B5720043CD6E /* Safe-Transport Watch App */;
+			targetProxy = 1DB2213D2AD3B5720043CD6E /* PBXContainerItemProxy */;
+		};
+		1DB2214F2AD3B5730043CD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB2213A2AD3B5720043CD6E /* Safe-Transport Watch App */;
+			targetProxy = 1DB2214E2AD3B5730043CD6E /* PBXContainerItemProxy */;
+		};
+		1DB221592AD3B5730043CD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB2213A2AD3B5720043CD6E /* Safe-Transport Watch App */;
+			targetProxy = 1DB221582AD3B5730043CD6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DB2215F2AD3B5730043CD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DB221602AD3B5730043CD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1DB221622AD3B5730043CD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Safe-Transport Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZGY9UJHWPT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Safe-Transport";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DitecTLab.Safe-Transport.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		1DB221632AD3B5730043CD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Safe-Transport Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZGY9UJHWPT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Safe-Transport";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DitecTLab.Safe-Transport.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		1DB221662AD3B5730043CD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGY9UJHWPT;
+				INFOPLIST_KEY_CFBundleDisplayName = "Safe-Transport";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DitecTLab.Safe-Transport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1DB221672AD3B5730043CD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGY9UJHWPT;
+				INFOPLIST_KEY_CFBundleDisplayName = "Safe-Transport";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DitecTLab.Safe-Transport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB221692AD3B5730043CD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGY9UJHWPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DitecTLab.Safe-Transport-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safe-Transport Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Safe-Transport Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		1DB2216A2AD3B5730043CD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGY9UJHWPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DitecTLab.Safe-Transport-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safe-Transport Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Safe-Transport Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		1DB2216C2AD3B5730043CD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGY9UJHWPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DitecTLab.Safe-Transport-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Safe-Transport Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		1DB2216D2AD3B5730043CD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGY9UJHWPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DitecTLab.Safe-Transport-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Safe-Transport Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB221322AD3B5720043CD6E /* Build configuration list for PBXProject "Safe-Transport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB2215F2AD3B5730043CD6E /* Debug */,
+				1DB221602AD3B5730043CD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB221612AD3B5730043CD6E /* Build configuration list for PBXNativeTarget "Safe-Transport Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB221622AD3B5730043CD6E /* Debug */,
+				1DB221632AD3B5730043CD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB221652AD3B5730043CD6E /* Build configuration list for PBXNativeTarget "Safe-Transport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB221662AD3B5730043CD6E /* Debug */,
+				1DB221672AD3B5730043CD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB221682AD3B5730043CD6E /* Build configuration list for PBXNativeTarget "Safe-Transport Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB221692AD3B5730043CD6E /* Debug */,
+				1DB2216A2AD3B5730043CD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB2216B2AD3B5730043CD6E /* Build configuration list for PBXNativeTarget "Safe-Transport Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB2216C2AD3B5730043CD6E /* Debug */,
+				1DB2216D2AD3B5730043CD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB2212F2AD3B5720043CD6E /* Project object */;
+}
