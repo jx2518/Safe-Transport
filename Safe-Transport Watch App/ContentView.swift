@@ -1,21 +1,22 @@
-//
-//  ContentView.swift
-//  Safe-Transport Watch App
-//
-//  Created by  jx2518 on 10/9/23.
-//
-
 import SwiftUI
+import CoreLocation
 
 struct ContentView: View {
+    @StateObject private var locationManagerDelegate = LocationManagerDelegate()
+    let locationManager = CLLocationManager()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text(locationManagerDelegate.locationText)
+                .font(.title)
+                .padding()
         }
-        .padding()
+        .onAppear {
+            locationManager.delegate = locationManagerDelegate
+            locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+            locationManager.requestWhenInUseAuthorization()
+            locationManager.startUpdatingLocation()
+        }
     }
 }
 

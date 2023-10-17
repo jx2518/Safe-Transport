@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D9105332ADF2A9D00DC356A /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9105322ADF2A9D00DC356A /* LocationManagerDelegate.swift */; };
 		1DB2213C2AD3B5720043CD6E /* Safe-Transport Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1DB2213B2AD3B5720043CD6E /* Safe-Transport Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1DB221412AD3B5720043CD6E /* Safe_TransportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB221402AD3B5720043CD6E /* Safe_TransportApp.swift */; };
 		1DB221432AD3B5720043CD6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB221422AD3B5720043CD6E /* ContentView.swift */; };
@@ -15,6 +16,8 @@
 		1DB221522AD3B5730043CD6E /* Safe_Transport_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB221512AD3B5730043CD6E /* Safe_Transport_Watch_AppTests.swift */; };
 		1DB2215C2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2215B2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITests.swift */; };
 		1DB2215E2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2215D2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITestsLaunchTests.swift */; };
+		1DD6E2F02ADF032F00EB40DB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6E2EF2ADF032F00EB40DB /* MapView.swift */; };
+		1DD6E2F52ADF1B4000EB40DB /* LocationInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6E2F42ADF1B4000EB40DB /* LocationInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D9105322ADF2A9D00DC356A /* LocationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerDelegate.swift; sourceTree = "<group>"; };
 		1DB221352AD3B5720043CD6E /* Safe-Transport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe-Transport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB2213B2AD3B5720043CD6E /* Safe-Transport Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe-Transport Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB221402AD3B5720043CD6E /* Safe_TransportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_TransportApp.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 		1DB221572AD3B5730043CD6E /* Safe-Transport Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe-Transport Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB2215B2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_Transport_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		1DB2215D2AD3B5730043CD6E /* Safe_Transport_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_Transport_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DD6E2EF2ADF032F00EB40DB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1DD6E2F42ADF1B4000EB40DB /* LocationInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,9 @@
 			children = (
 				1DB221402AD3B5720043CD6E /* Safe_TransportApp.swift */,
 				1DB221422AD3B5720043CD6E /* ContentView.swift */,
+				1DD6E2F42ADF1B4000EB40DB /* LocationInterfaceController.swift */,
+				1DD6E2EF2ADF032F00EB40DB /* MapView.swift */,
+				1D9105322ADF2A9D00DC356A /* LocationManagerDelegate.swift */,
 				1DB221442AD3B5730043CD6E /* Assets.xcassets */,
 				1DB221462AD3B5730043CD6E /* Preview Content */,
 			);
@@ -239,6 +248,7 @@
 					};
 					1DB2213A2AD3B5720043CD6E = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					1DB2214C2AD3B5730043CD6E = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -310,6 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB221432AD3B5720043CD6E /* ContentView.swift in Sources */,
+				1D9105332ADF2A9D00DC356A /* LocationManagerDelegate.swift in Sources */,
+				1DD6E2F02ADF032F00EB40DB /* MapView.swift in Sources */,
+				1DD6E2F52ADF1B4000EB40DB /* LocationInterfaceController.swift in Sources */,
 				1DB221412AD3B5720043CD6E /* Safe_TransportApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Safe-Transport Watch App/Preview Content\"";
@@ -485,6 +499,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 9.4;
@@ -496,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Safe-Transport Watch App/Preview Content\"";
